@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family: helvetica;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h2 {
   background-color: yellow;
   border-radius: 10px;
   float: left;
-  margin: 8%;
+  margin: 5%;
 }
 
 nav {
