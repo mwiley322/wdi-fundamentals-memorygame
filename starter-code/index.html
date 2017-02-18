@@ -5,14 +5,8 @@
     <meta charset="utf-8">
     <title>Memory Game</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    h1 {
-      color: teal;
-    }
-    h2 {
-      color: gold;
-    }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
@@ -21,21 +15,24 @@
         <a href="#">Game</a>
       </nav>
     </header>
-      <h1 class ="clearfix">Memory Game</h1>
-      <h2>Let's see how smart you really are!</h2>
-      <h3>Instructions</h3>
-      <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-			<div id="game-board">
-        <!-- <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div> -->
-      </div>
-      <br>
-      <br>
+    <h1 class ="clearfix">Memory Game</h1>
+    <h2>Let's see how smart you really are!</h2>
+    <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, <br>
+         is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. <br>
+         The object of the game is to turn over pairs of matching cards.</p>
+    <h4> Try it below by clicking on any two mystery cards </h4>
 
-			 <script src="main.js"></script>
+
+    <div id="scoreboard">
+      <!-- If you match two cards, it will tell you here. -->
+    </div>
+    <div id="game-board">
+      <!-- cards go here from JS-->
+    </div>
+  <br>
+  <br>
+		<script src="main.js"></script>
 
   </body>
-  <footer>Created with &hearts; by <a href="#">Megan Wiley</a></footer>
+  <footer>Created with &hearts; by <a href="https://www.linkedin.com/in/meganrwiley">Megan Wiley</a></footer>
 </html>
